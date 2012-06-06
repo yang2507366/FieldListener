@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF67ECD5157EEC33003CD1D8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF67ECD4157EEC33003CD1D8 /* Cocoa.framework */; };
+		CF67ECDF157EEC33003CD1D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF67ECDD157EEC33003CD1D8 /* InfoPlist.strings */; };
+		CF67ECE1157EEC33003CD1D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF67ECE0157EEC33003CD1D8 /* main.m */; };
+		CF67ECE5157EEC33003CD1D8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CF67ECE3157EEC33003CD1D8 /* Credits.rtf */; };
+		CF67ECE8157EEC33003CD1D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF67ECE7157EEC33003CD1D8 /* AppDelegate.m */; };
+		CF67ECEB157EEC33003CD1D8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF67ECE9157EEC33003CD1D8 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF67ECD0157EEC33003CD1D8 /* FieldListener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FieldListener.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF67ECD4157EEC33003CD1D8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CF67ECD7157EEC33003CD1D8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CF67ECD8157EEC33003CD1D8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CF67ECD9157EEC33003CD1D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF67ECDC157EEC33003CD1D8 /* FieldListener-Info.plist */ = {isa = PBXFileReference; path = "FieldListener-Info.plist"; sourceTree = "<group>"; };
+		CF67ECDE157EEC33003CD1D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF67ECE0157EEC33003CD1D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF67ECE2157EEC33003CD1D8 /* FieldListener-Prefix.pch */ = {isa = PBXFileReference; path = "FieldListener-Prefix.pch"; sourceTree = "<group>"; };
+		CF67ECE4157EEC33003CD1D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CF67ECE6157EEC33003CD1D8 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF67ECE7157EEC33003CD1D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF67ECEA157EEC33003CD1D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF67ECCD157EEC33003CD1D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF67ECD5157EEC33003CD1D8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF67ECC5157EEC33003CD1D8 = {
+			isa = PBXGroup;
+			children = (
+				CF67ECDA157EEC33003CD1D8 /* FieldListener */,
+				CF67ECD3157EEC33003CD1D8 /* Frameworks */,
+				CF67ECD1157EEC33003CD1D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF67ECD1157EEC33003CD1D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF67ECD0157EEC33003CD1D8 /* FieldListener.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF67ECD3157EEC33003CD1D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF67ECD4157EEC33003CD1D8 /* Cocoa.framework */,
+				CF67ECD6157EEC33003CD1D8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF67ECD6157EEC33003CD1D8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF67ECD7157EEC33003CD1D8 /* AppKit.framework */,
+				CF67ECD8157EEC33003CD1D8 /* CoreData.framework */,
+				CF67ECD9157EEC33003CD1D8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CF67ECDA157EEC33003CD1D8 /* FieldListener */ = {
+			isa = PBXGroup;
+			children = (
+				CF67ECE6157EEC33003CD1D8 /* AppDelegate.h */,
+				CF67ECE7157EEC33003CD1D8 /* AppDelegate.m */,
+				CF67ECE9157EEC33003CD1D8 /* MainMenu.xib */,
+				CF67ECDB157EEC33003CD1D8 /* Supporting Files */,
+			);
+			path = FieldListener;
+			sourceTree = "<group>";
+		};
+		CF67ECDB157EEC33003CD1D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF67ECDC157EEC33003CD1D8 /* FieldListener-Info.plist */,
+				CF67ECDD157EEC33003CD1D8 /* InfoPlist.strings */,
+				CF67ECE0157EEC33003CD1D8 /* main.m */,
+				CF67ECE2157EEC33003CD1D8 /* FieldListener-Prefix.pch */,
+				CF67ECE3157EEC33003CD1D8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF67ECCF157EEC33003CD1D8 /* FieldListener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF67ECEE157EEC33003CD1D8 /* Build configuration list for PBXNativeTarget "FieldListener" */;
+			buildPhases = (
+				CF67ECCC157EEC33003CD1D8 /* Sources */,
+				CF67ECCD157EEC33003CD1D8 /* Frameworks */,
+				CF67ECCE157EEC33003CD1D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FieldListener;
+			productName = FieldListener;
+			productReference = CF67ECD0157EEC33003CD1D8 /* FieldListener.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF67ECC7157EEC33003CD1D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CF67ECCA157EEC33003CD1D8 /* Build configuration list for PBXProject "FieldListener" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF67ECC5157EEC33003CD1D8;
+			productRefGroup = CF67ECD1157EEC33003CD1D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF67ECCF157EEC33003CD1D8 /* FieldListener */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF67ECCE157EEC33003CD1D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF67ECDF157EEC33003CD1D8 /* InfoPlist.strings in Resources */,
+				CF67ECE5157EEC33003CD1D8 /* Credits.rtf in Resources */,
+				CF67ECEB157EEC33003CD1D8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF67ECCC157EEC33003CD1D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF67ECE1157EEC33003CD1D8 /* main.m in Sources */,
+				CF67ECE8157EEC33003CD1D8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF67ECDD157EEC33003CD1D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF67ECDE157EEC33003CD1D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF67ECE3157EEC33003CD1D8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF67ECE4157EEC33003CD1D8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CF67ECE9157EEC33003CD1D8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF67ECEA157EEC33003CD1D8 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF67ECEC157EEC33003CD1D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CF67ECED157EEC33003CD1D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CF67ECEF157EEC33003CD1D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FieldListener/FieldListener-Prefix.pch";
+				INFOPLIST_FILE = "FieldListener/FieldListener-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF67ECF0157EEC33003CD1D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FieldListener/FieldListener-Prefix.pch";
+				INFOPLIST_FILE = "FieldListener/FieldListener-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF67ECCA157EEC33003CD1D8 /* Build configuration list for PBXProject "FieldListener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF67ECEC157EEC33003CD1D8 /* Debug */,
+				CF67ECED157EEC33003CD1D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF67ECEE157EEC33003CD1D8 /* Build configuration list for PBXNativeTarget "FieldListener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF67ECEF157EEC33003CD1D8 /* Debug */,
+				CF67ECF0157EEC33003CD1D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF67ECC7157EEC33003CD1D8 /* Project object */;
+}
