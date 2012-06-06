@@ -1,8 +1,8 @@
 
-FieldListener.xcodeproj/project.xcworkspace/xcuserdata/gewara.xcuserdatad/UserInterfaceState.xcuserstate
+*.xcuserstate
 
-FieldListener.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+*.xcworkspacedata
 
-FieldListener.xcodeproj/xcuserdata/gewara.xcuserdatad/xcschemes/FieldListener.xcscheme
+*.xcscheme
 
 FieldListener.xcodeproj/xcuserdata/gewara.xcuserdatad/xcschemes/xcschememanagement.plist
