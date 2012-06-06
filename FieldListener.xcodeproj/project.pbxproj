@@ -21,12 +21,12 @@
 		CF67ECD7157EEC33003CD1D8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		CF67ECD8157EEC33003CD1D8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		CF67ECD9157EEC33003CD1D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		CF67ECDC157EEC33003CD1D8 /* FieldListener-Info.plist */ = {isa = PBXFileReference; path = "FieldListener-Info.plist"; sourceTree = "<group>"; };
+		CF67ECDC157EEC33003CD1D8 /* FieldListener-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FieldListener-Info.plist"; sourceTree = "<group>"; };
 		CF67ECDE157EEC33003CD1D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CF67ECE0157EEC33003CD1D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CF67ECE2157EEC33003CD1D8 /* FieldListener-Prefix.pch */ = {isa = PBXFileReference; path = "FieldListener-Prefix.pch"; sourceTree = "<group>"; };
+		CF67ECE2157EEC33003CD1D8 /* FieldListener-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FieldListener-Prefix.pch"; sourceTree = "<group>"; };
 		CF67ECE4157EEC33003CD1D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		CF67ECE6157EEC33003CD1D8 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF67ECE6157EEC33003CD1D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CF67ECE7157EEC33003CD1D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CF67ECEA157EEC33003CD1D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */

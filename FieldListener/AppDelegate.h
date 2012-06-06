@@ -8,7 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate> {
+    IBOutlet NSTextField *_textFieldURLString;
+    IBOutlet NSTextView *_textViewLog;
+    NSString *_currentURLString;
+}
 
 @property (assign) IBOutlet NSWindow *window;
 
