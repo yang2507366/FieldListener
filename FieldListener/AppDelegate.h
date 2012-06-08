@@ -11,6 +11,7 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate> {
     IBOutlet NSTextField *_textFieldURLString;
     IBOutlet NSTextView *_textViewLog;
+    IBOutlet NSTextField *_textFieldMatchingString;
     NSString *_currentURLString;
 }
 
